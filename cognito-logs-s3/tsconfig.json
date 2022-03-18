@@ -1,0 +1,8 @@
+{
+  "extends": "@tsconfig/node14",
+  "compilerOptions": {
+    "lib": ["es2020", "dom"],
+    "outDir": ".dist"
+  },
+  "include": ["src/**/*.ts"]
+}
